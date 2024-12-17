@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(201, 201, 201);
+}
+
+#sofas{
+    margin-top: 15px;
+}
+
+.item {
+    background-color: red;
+    height: 150px;
+}
+

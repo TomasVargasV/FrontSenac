@@ -1,0 +1,224 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main {
+  position: relative;
+}
+
+.pokedex {
+  display: flex;
+}
+.pokedex-body {
+  display: flex;
+  height: 90vh;
+}
+.pokedex-display {
+  position: absolute;
+  top: 175px;
+  left: 85px;
+  height: 140px;
+}
+
+.pokemon-img {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  bottom: 240px;
+  left: 155px;
+  border-color: red;
+}
+.button-black {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  position: absolute;
+  border-radius: 50px;
+  height: 42px;
+  width: 42px;
+  bottom: 121px;
+  left: 61px;
+}
+.button-short-red {
+  position: absolute;
+  border-radius: 50px;
+  height: 15px;
+  width: 55px;
+  bottom: 135px;
+  left: 112px;
+}
+.button-short-blue {
+  position: absolute;
+  border-radius: 50px;
+  height: 15px;
+  width: 55px;
+  bottom: 135px;
+  left: 175px;
+}
+.button-green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 10px;
+  height: 50px;
+  width: 112px;
+  bottom: 58px;
+  left: 100px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: large;
+}
+.button-up {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  position: absolute;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  bottom: 125px;
+  left: 261px;
+}
+.button-right {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  position: absolute;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  bottom: 98px;
+  left: 287px;
+}
+.button-bottom {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  position: absolute;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  bottom: 72px;
+  left: 260px;
+}
+.button-left {
+  cursor: pointer;
+  background-color: transparent;
+  border-style: none;
+  position: absolute;
+  border-radius: 10px;
+  height: 30px;
+  width: 30px;
+  bottom: 98px;
+  left: 235px;
+}
+.display-black {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  position: absolute;
+  border-radius: 10px;
+  height: 78px;
+  width: 215px;
+  bottom: 263px;
+  left: 412px;
+  color: white;
+  font-size: larger;
+  font-family: "Pixelify Sans", sans-serif;
+}
+.buttons-blue {
+  position: absolute;
+  border-radius: 10px;
+  height: 65px;
+  width: 215px;
+  bottom: 185px;
+  left: 412px;
+}
+.button-short-black-left {
+  position: absolute;
+  border-radius: 10px;
+  height: 11px;
+  width: 39px;
+  bottom: 168px;
+  left: 545px;
+}
+.button-short-black-right {
+  position: absolute;
+  border-radius: 10px;
+  height: 11px;
+  width: 39px;
+  bottom: 168px;
+  left: 587px;
+}
+.button-white-left {
+  position: absolute;
+  border-radius: 10px;
+  height: 35px;
+  width: 45px;
+  bottom: 125px;
+  left: 416px;
+}
+.button-white-right {
+  position: absolute;
+  border-radius: 10px;
+  height: 35px;
+  width: 45px;
+  bottom: 125px;
+  left: 460px;
+}
+.button-gold {
+  font-size: larger;
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+  position: absolute;
+  border-radius: 10px;
+  height: 25px;
+  width: 25px;
+  bottom: 123px;
+  left: 601px;
+}
+.display-black-bottom-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 10px;
+  height: 35px;
+  width: 105px;
+  bottom: 65px;
+  left: 410px;
+  color: white;
+  font-size: larger;
+  font-family: "Pixelify Sans", sans-serif;
+}
+.display-black-bottom-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 10px;
+  height: 35px;
+  width: 105px;
+  bottom: 65px;
+  left: 525px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+}
+.inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 60px;
+  margin-left: 2px;
+  font-size: larger;
+  font-family: "Pixelify Sans", sans-serif;
+}

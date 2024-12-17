@@ -1,0 +1,8 @@
+{
+  "matematica": ["João", "Pedro", "Maria"],
+  "portugues": ["João", "Pedro"],
+  "fisica": ["João", "Maria"],
+  "quimica": ["Pedro", "Maria"],
+  "historia": ["João", "Pedro", "Fulano"],
+  "geografia": ["João", "Beltrano", "Maria"]
+}

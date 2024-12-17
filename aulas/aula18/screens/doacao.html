@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tua Obra</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/doacao.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="title">Doação de Materiais</h1>
+            <a class="logoLink" href="./home.html">
+                <img class="logoImg" src="../img/logo.png">
+            </a>
+        </header>
+        <div class="purpleBackground">
+            <div class="purpleCircle"></div>
+            <div class="purpleSquare">
+                <h1 class="formTitle">Novo material</h1>
+                <form class="loginForm">
+                    <input class="formInput" type="email" placeholder="Nome do material">
+                    <div class="formColumn">
+                        <input class="formInput" type="number" placeholder="Quantidade">
+                        <input class="formInput" list="unidades" placeholder="Unidade de medida">
+                        <datalist id="unidades">
+                            <option value="m"></option>
+                            <option value="m²"></option>
+                            <option value="m³"></option>
+                            <option value="kg"></option>
+                        </datalist>
+                    </div>
+                    <div class="formColumn">
+                        <input class="formInput" list="estados" placeholder="Estado do material">
+                        <datalist id="estados">
+                            <option value="Na caixa"></option>
+                            <option value="Novo"></option>
+                            <option value="Pouco usado"></option>
+                            <option value="Muito usado"></option>
+                            <option value="Defeituoso"></option>
+                        </datalist>
+                        <div class="divFoto">
+                            <label class="formInputFoto" for="foto">Enviar foto <img
+                                    src="../img/mdi-light--camera.svg"></label>
+                            <input type="file" id="foto" multiple>
+                        </div>
+                    </div>
+                    <input class="formInputAdicional" type="text" placeholder="Informações adicionais">
+                    <div class="formButtonsDiv">
+                        <a href="./home.html">
+                            <input class="formButton" id="formButtonLogin" type="button" onclick="validaBusca()"
+                                value="Doar">
+                        </a>
+                        <a href="./home.html">
+                            <input class="formButton" type="button" onclick="validaBusca()" value="Cancelar">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

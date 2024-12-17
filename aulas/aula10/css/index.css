@@ -1,0 +1,11 @@
+p {
+  color: red;
+  font-size: x-large;
+}
+
+@media (max-width: 500px) {
+  p {
+    color: blue;
+    font-size: medium;
+  }
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 5px;
+  height: 100%;
+}
+
+#red-square {
+  width: 49%;
+  height: 90vh;
+  background-color: orangered;
+  float: left;
+  margin-right: 5px;
+}
+
+#title {
+  text-align: center;
+  color: yellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#text{
+    padding: 10px;
+    font-size: large;
+}
+
+#painting {
+  height: 45vh;
+  width: 300px;
+}
+
+#table {
+  height: 45vh;
+}
+
+#table-item {
+  border-bottom: 1px solid grey;
+  margin-top: 5px;
+}
+
+#table-item-title {
+  font-weight: bolder;
+}
+
+#footer {
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.menu-opcoes{
+    height: 50px;
+    padding: 20px;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item{
+    font-size: larger;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.socials{
+    display: flex;
+    gap: 50px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+}

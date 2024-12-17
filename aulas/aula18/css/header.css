@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoLink{
+    width: 30%;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.logoImg{
+    height: 100%;
+}
+
+.title{
+    margin: 10px 0  0 10px;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #5D5A4B;
+}

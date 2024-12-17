@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <main>
+      <form class="display-section">
+        <input class="display-info" type="text" readonly />
+      </form>
+      <div class="buttons-section">
+        <div class="buttons-row">
+          <button class="button"></button>
+          <button class="button"></button>
+          <button class="button" onclick="displayClear()">C</button>
+          <button class="button" onclick="displayBackspace()">⌫</button>
+        </div>
+        <div class="buttons-row">
+          <button class="button"></button>
+          <button class="button">x²</button>
+          <button class="button">√</button>
+          <button class="button" onclick="displayInfo('÷')">÷</button>
+        </div>
+        <div class="buttons-row">
+          <button class="button" onclick="displayInfo('7')">7</button>
+          <button class="button" onclick="displayInfo('8')">8</button>
+          <button class="button" onclick="displayInfo('9')">9</button>
+          <button class="button" onclick="displayInfo('×')">×</button>
+        </div>
+        <div class="buttons-row">
+          <button class="button" onclick="displayInfo('4')">4</button>
+          <button class="button" onclick="displayInfo('5')">5</button>
+          <button class="button" onclick="displayInfo('6')">6</button>
+          <button class="button" onclick="displayInfo('-')">-</button>
+        </div>
+        <div class="buttons-row">
+          <button class="button" onclick="displayInfo('1')">1</button>
+          <button class="button" onclick="displayInfo('2')">2</button>
+          <button class="button" onclick="displayInfo('3')">3</button>
+          <button class="button" onclick="displayInfo('+')">+</button>
+        </div>
+        <div class="buttons-row">
+          <button class="button"></button>
+          <button class="button" onclick="displayInfo('0')">0</button>
+          <button class="button" onclick="displayInfo('.')">,</button>
+          <button class="button equals" onclick="calculate()">=</button>
+        </div>
+      </div>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

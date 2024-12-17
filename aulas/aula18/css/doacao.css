@@ -1,0 +1,113 @@
+body{
+    height: 100vh;
+}
+
+main{
+    background-color: #F5DD54;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purpleBackground{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    width: 100%;
+}
+
+.purpleCircle{
+    display: flex;
+    background-color: #706CA0;
+    height: 200px;
+    width: 100%;
+    border-radius: 15%;
+    margin-bottom: -75px;
+}
+
+.purpleSquare{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: #706CA0;
+    height: 100%;
+    width: 100%;
+}
+
+.formTitle {
+    font-family: sans-serif;
+    color: #F5DD54;
+    font-size: larger;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.formColumn{
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.formInput{
+    border-radius: 5px;
+    height: 25px;
+    border-style: none;
+    width: 100%;
+}
+
+.divFoto{
+    display: flex;
+    min-width: fit-content;
+    height: 27px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.formInputFoto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 7px 10px;
+    background-color: #F5DD54;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.formInputAdicional{
+    border-radius: 5px;
+    height: 100px;
+    border-style: none;
+}
+
+.formButtonsDiv{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.formButton{
+    border: 1px solid #5D5A4B;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    width: 100px;
+}
+
+#formButtonLogin{
+    background-color: #F5DD54;
+}

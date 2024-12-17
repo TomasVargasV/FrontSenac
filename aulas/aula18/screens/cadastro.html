@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tua Obra</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/cadastro.css" />
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="title">Cadastro</h1>
+            <a class="logoLink" href="./home.html">
+                <img class="logoImg" src="../img/logo.png">
+            </a>
+        </header>
+        <div class="purpleBackground">
+            <div class="purpleCircle"></div>
+            <div class="purpleSquare">
+                <form class="loginForm">
+                    <input class="formInput" type="text" placeholder="Nome" id="nome">
+                    <input class="formInput" type="text" placeholder="Sobrenome" id="sobrenome">
+                    <input class="formInput" type="email" placeholder="Email" id="email">
+                    <input class="formInput" type="password" placeholder="Senha" id="senha">
+                    <input class="formInput" type="number" placeholder="Telefone" id="telefone">
+                    <input class="formInput" type="number" placeholder="CPF/CNPJ" id="cpf">
+                    <input class="formInput" type="number" placeholder="CEP" id="cep">
+                    <input class="formInput" list="estados" placeholder="UF" id="uf">
+                    <datalist id="estados">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </datalist>
+                    <input class="formInput" type="text" placeholder="Cidade" id="cidade">
+                    <input class="formInput" type="text" placeholder="Bairro" id="bairro">
+                    <input class="formInput" type="text" placeholder="Rua" id="rua">
+                    <input class="formInput" type="number" placeholder="Número" id="numero">
+                    <div class="formButtonsDiv">
+
+                        <button class="formButton" id="formButtonCadastro" type="submit">Cadastrar-se</button>
+
+                        <a href="./index.html">
+                            <input class="formButton" type="button" onclick="validaBusca()" value="Cancelar">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

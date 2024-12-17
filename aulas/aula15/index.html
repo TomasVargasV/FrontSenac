@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="pokedex">
+        <img src="./img/pokedex.png" class="pokedex-body" />
+        <img src="./img/pokedexDisplay.png" class="pokedex-display" />
+      </div>
+      <section>
+        <figure class="pokemon-img">
+          <img id="imgPokemon" />
+        </figure>
+        <button class="button-black" onclick="start()"></button>
+        <div class="button-short-red"></div>
+        <div class="button-short-blue"></div>
+        <div class="button-green">
+          <p id="tipo1"></p>
+          <p id="tipo2"></p>
+        </div>
+        <button class="button-up"></button>
+        <button class="button-right" onclick="nextPokemon()"></button>
+        <button class="button-bottom"></button>
+        <button class="button-left" onclick="previousPokemon()"></button>
+      </section>
+      <section>
+        <div class="display-black">
+          <p id="alturaPokemon"></p>
+          <p id="pesoPokemon"></p>
+        </div>
+        <form class="buttons-blue" id="formEntradaDados">
+          <input class="inputForm" id="inputEntradaDados" type="text" />
+        </form>
+        <div class="button-short-blue"></div>
+        <div class="button-short-black-left"></div>
+        <div class="button-short-black-right"></div>
+        <div class="button-white-left"></div>
+        <div class="button-white-right"></div>
+        <button onclick="play()" class="button-gold">
+          ♪
+          <audio id="audioPokemon"></audio>
+        </button>
+        <div class="display-black-bottom-left" id="IDPokemon"></div>
+        <div class="display-black-bottom-right" id="nomePokemon"></div>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

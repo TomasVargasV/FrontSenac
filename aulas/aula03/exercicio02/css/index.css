@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  color: orangered;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 5px;
+}
+
+span {
+  font-weight: bolder;
+  color: grey;
+  padding: 0px;
+}
+
+#sinopse {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+}
+
+#info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#imdb {
+  padding-left: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#comentario {
+  padding-left: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+footer {
+  height: 200px;
+  background-image: url(../img/The_One_Ring-logo-39162F3461-seeklogo.com.png);
+  background-size: 200px;
+  margin-top: 20px;
+  margin-left: -40px;
+}
